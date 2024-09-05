@@ -1,6 +1,7 @@
 'use client'
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import Testimonials from "@/components/Testimonials";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -13,6 +14,7 @@ export default function Home() {
      <WhyChooseUs/>
      <Testimonials/>
      <UpcomingWebinars/>
+     <Instructors/>
    </main>
   );
 }
